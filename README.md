@@ -1,32 +1,40 @@
-🛒 E-Commerce Website
+🛒 E-Commerce Website (React + Vite)
 
-A simple and responsive E-Commerce web app built using React + Vite.
+A modern and responsive E-Commerce web application built using React.js and Vite.
+This project focuses on clean UI, fast performance, and smooth user experience.
 
 🚀 Features
 
-Product listing
+🧾 Product listing
 
-Add to cart
+🛍️ Add to Cart functionality
 
-Responsive UI
+🔍 Product details view
+
+📱 Fully Responsive Design
+
+⚡ Fast loading with Vite
+
+🎨 Clean & modern UI
 
 🛠️ Tech Stack
 
-React
+React.js
 
 Vite
 
-JavaScript
+JavaScript (ES6)
 
-CSS / Tailwind
+HTML5
 
-▶️ Run Project
+CSS / Tailwind CSS
+
+Git & GitHub
+
+📂 Project Setup
+Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+Install dependencies
 npm install
-npm run dev
-
-👤 Author
-
-Sohan Anuragi
-
-⭐ Star the repo if you like it
 
