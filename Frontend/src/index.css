@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* GLOBAL FONT */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Global link reset: inherit color, no underline; subtle hover cue */
+:where(a) {
+  color: inherit;
+  text-decoration: none;
+}
+
+:where(a:hover) {
+  color: inherit;
+  opacity: 0.9;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="32" viewBox="0 0 56 32">
+  <!-- PayPal Official Logo -->
+  <rect width="56" height="32" rx="4" fill="white" stroke="#e0e0e0" stroke-width="0.5"/>
+  <g transform="translate(8, 6)">
+    <!-- PayPal P -->
+    <path d="M 1 0 L 6 0 Q 8 0 8 2 L 8 4 Q 8 6 6 6 L 1 6 L 0 10 L 2 10 L 3 6 L 4 6 Q 6 6 6 8 L 6 9 Q 6 10 4 10 L 1 10" fill="#003087" stroke="#003087" stroke-width="0.5"/>
+  </g>
+  <text x="28" y="21" font-family="Arial, sans-serif" font-size="8" font-weight="900" fill="#003087">PayPal</text>
+</svg>
