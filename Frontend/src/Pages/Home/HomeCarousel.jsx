@@ -1,5 +1,5 @@
-import carousel1 from "../../assets/CarouselImg/carousel1.jpg";
-import carousel2 from "../../assets/CarouselImg/carousel2.jpg";
+import carousel2 from "../../assets/CarouselImg/carousel1.jpg";
+import carousel1 from "../../assets/CarouselImg/carousel2.jpg";
 import carousel3 from "../../assets/CarouselImg/carousel3.jpg";
 
 export default function HomeCarousel() {

@@ -3,7 +3,7 @@ import img2 from "../../assets/OurProducts/img2.png";
 
 export default function OurProducts() {
   return (
-    <div className="flex flex-col h-70 md:h-[60] mt-[2rem] md:mt-[4rem] mx-[1rem] md:mx-[7rem] mb-[4rem] gap-2 md:flex-row">
+    <div className="flex flex-col h-70 md:h-[60] mt-[2rem] md:mt-[4rem] mx-[1rem] md:mx-[7rem] mb-[4rem] gap-2 sm:flex-row">
       <a href="#" className="group h-60 flex-1 overflow-hidden rounded-[5px]">
         <img
           src={img1}
