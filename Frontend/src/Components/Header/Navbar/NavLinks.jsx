@@ -1,9 +1,9 @@
-import { FaRegUser } from "react-icons/fa";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { CgMenu } from "react-icons/cg";
 import { RxCross2 } from "react-icons/rx";
 import { useContext } from "react";
 import HeaderData, { HeaderStore } from "../Store";
+import Profile from "./Profile/Profile";
 
 export default function NavLinks() {
   const { menuToggle, handleMenuToggle } = useContext(HeaderStore);
@@ -11,23 +11,7 @@ export default function NavLinks() {
   return (
     <div className="flex items-center relative">
       {/* Login / Signup */}
-      <a
-        href="#"
-        className="flex items-center mr-[0.8rem] lg:mr-[2rem] family-poppins no-underline text-inherit !no-underline "
-      >
-        <FaRegUser
-          size={25}
-          className="w-5 h-5 md:w-6 md:h-6 lg:w-6 lg:h-6 text-[#111111]"
-        />
-        <div className="flex flex-col ml-[0.7rem] hidden lg:flex text-[#111111] !no-underline">
-          <span className="text-[0.95rem] font-[600] font-sans ml-[0.2rem] text-[#111111] !no-underline">
-            Login with ID
-          </span>
-          <span className="text-[0.9rem] font-sans mt-[-5px] text-[#111111] !no-underline">
-            or sign up
-          </span>
-        </div>
-      </a>
+      <Profile></Profile>
 
       {/* Shopping Bag */}
       <a
