@@ -5,7 +5,26 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/* Global link reset: inherit color, no underline; subtle hover cue */
+/* 🔥 GLOBAL REM CONTROL */
+html {
+  font-size: 16px; /* Desktop → 1rem = 16px */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px; /* 1rem = 14px */
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  html {
+    font-size: 12px; /* 1rem = 12px */
+  }
+}
+
+/* Global link reset */
 :where(a) {
   color: inherit;
   text-decoration: none;
