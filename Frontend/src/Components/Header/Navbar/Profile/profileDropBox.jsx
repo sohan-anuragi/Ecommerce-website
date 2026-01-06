@@ -30,14 +30,18 @@ export default function ProfileDropBox({ hover, setHover }) {
             status === "registered" ? "hidden" : ""
           }  `}
         >
-          Sign In
+          <a href="/sign-in" className="!no-underline !text-[white]">
+            Sign In
+          </a>
         </button>
         <button
           className={` p-[0.5rem] !rounded-md bg-[#ffc400] text-[white] !mt-[0.8rem] ${
             status === "registered" ? "hidden" : ""
           } `}
         >
-          Sign Up
+          <a href="/sign-up" className="!no-underline !text-[white]">
+            Sign Up
+          </a>
         </button>
 
         <button

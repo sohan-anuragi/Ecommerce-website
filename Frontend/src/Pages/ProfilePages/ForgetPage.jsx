@@ -1,4 +1,4 @@
-export default function SignUpPage() {
+export default function ForgetPage() {
   return (
     <>
       <div className="py-[1rem]  px-[2rem] md:px-[5rem] md:w-[50%] lg:px-[7rem]">
