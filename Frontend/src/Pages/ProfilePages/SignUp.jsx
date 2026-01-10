@@ -14,7 +14,7 @@ export default function SignUpPage() {
           <ul className="flex text-[0.6rem] !p-[0rem]  !m-[0rem]">
             <li>
               <a
-                href="#"
+                href="/"
                 className="!no-underline !text-[black] p-[0rem] m-[0rem]"
               >
                 Home
@@ -163,7 +163,7 @@ export default function SignUpPage() {
 
         <p className="center p-[1rem] text-center text-[0.9rem] text-[black] ">
           Already have an account?{" "}
-          <a href="#" className="!text-[black]">
+          <a href="/sign-in" className="!text-[black]">
             Login
           </a>
         </p>

@@ -7,7 +7,7 @@ export default function ForgetPage() {
           <ul className="flex text-[0.6rem] !p-[0rem]  !m-[0rem]">
             <li>
               <a
-                href="#"
+                href="/"
                 className="!no-underline !text-[black] p-[0rem] m-[0rem]"
               >
                 Home

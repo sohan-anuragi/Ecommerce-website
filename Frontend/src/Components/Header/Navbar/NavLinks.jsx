@@ -1,9 +1,9 @@
-import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { CgMenu } from "react-icons/cg";
 import { RxCross2 } from "react-icons/rx";
 import { useContext } from "react";
 import HeaderData, { HeaderStore } from "../Store";
 import Profile from "./Profile/Profile";
+import Cart from "./Cart/Cart";
 
 export default function NavLinks() {
   const { menuToggle, handleMenuToggle } = useContext(HeaderStore);
@@ -14,18 +14,7 @@ export default function NavLinks() {
       <Profile></Profile>
 
       {/* Shopping Bag */}
-      <a
-        href="#"
-        className="mr-[3rem] md:-[1rem] relative flex items-center w-[3rem] font-bold md:mr-[0rem] no-underline !no-underline text-[#111111] !no-underline"
-      >
-        <span className="bg-[#ff4800] rounded-full text-center h-[1.2rem] w-[1.2rem] text-white absolute right-[0.5rem] text-[0.8rem]  font-bold">
-          4
-        </span>
-        <HiOutlineShoppingBag
-          size={30}
-          className=" w-6 h-6 md:w-6 md:h-6 lg:w-7 lg:h-7 text-inherit !text-[#111111] !no-underline"
-        />
-      </a>
+      <Cart></Cart>
 
       {/* Menu / Cross Icon */}
       <span

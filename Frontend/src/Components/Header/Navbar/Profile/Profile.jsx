@@ -20,14 +20,14 @@ export default function Profile() {
         />
         <div className="flex flex-col ml-[0.7rem] hidden lg:flex text-[#111111] !no-underline">
           <span
-            className={`text-[0.95rem] font-[600] font-sans ml-[0.2rem] transition-all duration-300 ease-in-out ${
+            className={`text-[0.95rem] font-[600] !font-sans ml-[0.2rem] transition-all duration-300 ease-in-out ${
               hover ? "!text-[#812b00]" : ""
             } `}
           >
             Login with ID
           </span>
           <span
-            className={`text-[0.9rem] font-sans mt-[-5px] text-[#111111] transition-all duration-300 ease-in-out ${
+            className={`text-[0.9rem] !font-sans mt-[-5px] text-[#111111] transition-all duration-300 ease-in-out ${
               hover ? "!text-[#812b00]" : ""
             }`}
           >

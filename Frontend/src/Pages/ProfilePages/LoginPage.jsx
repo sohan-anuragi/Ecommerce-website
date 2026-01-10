@@ -13,7 +13,7 @@ export default function LoginPage() {
           <ul className="flex text-[0.6rem] !p-[0rem]  !m-[0rem]">
             <li>
               <a
-                href="#"
+                href="/"
                 className="!no-underline !text-[black] p-[0rem] m-[0rem]"
               >
                 Home
@@ -83,7 +83,7 @@ export default function LoginPage() {
 
           {/* Forgot password */}
           <a
-            href="#"
+            href="/forget-password"
             className="text-[0.8rem] mt-[0.7rem] mb-[1rem] !text-[black]"
           >
             Forgot Password?
@@ -100,7 +100,7 @@ export default function LoginPage() {
 
         <p className="center p-[1rem] text-center text-[0.9rem] text-[black] ">
           Don’t have an account yet?{" "}
-          <a href="#" className="!text-[black]">
+          <a href="/sign-up" className="!text-[black]">
             create an account
           </a>
         </p>

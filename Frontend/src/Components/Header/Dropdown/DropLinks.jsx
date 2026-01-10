@@ -7,10 +7,10 @@ export default function DropLinks() {
   return (
     <ul
       className={`absolute md:static top-[0.1rem] right-0
-bg-[#ff5500] md:bg-transparent
+bg-[#f74a00] md:bg-transparent
 text-white md:text-black
 mt-[0.1rem]
-w-[50%] h-[90%] md:w-auto md:h-auto
+w-[50%] h-[70vh] md:w-auto md:h-auto
 pt-[3rem] md:pt-0
 font-sans
 md:flex md:flex-row
